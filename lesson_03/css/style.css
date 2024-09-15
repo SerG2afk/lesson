@@ -36,6 +36,9 @@ p {
 #link-geography {
 	color: red;
 }
+.article-geography span {
+	color: fuchsia;
+}
 
 p.text {
 	color: green;
