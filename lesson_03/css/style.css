@@ -1,0 +1,63 @@
+@import url("reset.css");
+
+* {
+	color: black;
+}
+
+p {
+	color: aqua;
+}
+
+[class*="img"] {
+	width: 450px;
+	height: 350px;
+}
+
+.big-title {
+	font-size: 24px;
+}
+
+.nav-item {
+	color: blue;
+}
+
+.geography {
+	color: red;
+}
+
+.history {
+	color: green;
+}
+
+.tourism {
+	color: pink;
+}
+
+#link-geography {
+	color: red;
+}
+
+p.text {
+	color: green;
+}
+
+*,
+h3 {
+	color: blue;
+}
+
+.article-economy p {
+	color: black;
+}
+
+.article-politics>p {
+	color: orange;
+}
+
+.article-tourism~p {
+	color: blueviolet;
+}
+
+.article-future+p {
+	color: yellowgreen;
+}
