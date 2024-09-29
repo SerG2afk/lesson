@@ -67,7 +67,7 @@ line-height: 32px;
 
 }
 .item{
-    background: url(/img/check.svg);
+    background: url("../img/check.svg");
 background-repeat: no-repeat;
 padding-left: 48px;
 min-height: 32px;
@@ -105,8 +105,8 @@ padding-bottom: 16px;
 .conteiner-black{
     min-height: 860px;
     background: 
-    url(/img/abstract.png)  center / 470px no-repeat,
-    url(/img/container.png) center / cover no-repeat;
+    url("../img/abstract.png")  center / 470px no-repeat,
+    url("../img/container.png") center / cover no-repeat;
          
 
 }
@@ -150,7 +150,7 @@ line-height: 150%;
 
 }
 .button-title span {
-background: url(/img/icon.svg) left /24px no-repeat;
+background: url("../img/icon.svg") left /24px no-repeat;
 padding-left: 28px; 
 min-height: 52px;
 }
@@ -231,19 +231,19 @@ text-align: center;
 .block-3,
 .block-4{
     display: inline-block;
-    /* -------------- */
-
-
+  
 }
+
+  /* -------------- */
 .box{
-    text-align: center;
-    margin-bottom: 100px;}
+    margin-bottom: 100px;
+}
+
 
 .section-2{
- max-width: 1150px;
-
-background: url(/img/landscape-of-morning-fog-and-mountains-with-hot-air-balloons-at-sunrise_335224-794.avif) 0 0/ 100% auto no-repeat ;
-
+    max-width: 1400px;
+    background: url("../img/landscape-of-morning-fog-and-mountains-with-hot-air-balloons-at-sunrise_335224-794.avif") 0 0/ 100% auto no-repeat ;
+    margin: 0 auto;
 }
 
 
@@ -263,7 +263,7 @@ text-align: right;
 max-width: 40%;
 padding: 50px;
 display: inline-block;
-background: url(/img/landscape-of-morning-fog-and-mountains-with-hot-air-balloons-at-sunrise_335224-794.avif) 10% 20%/100px no-repeat;
+background: url("../img/landscape-of-morning-fog-and-mountains-with-hot-air-balloons-at-sunrise_335224-794.avif") 10% 20%/100px no-repeat;
     
 
 }
@@ -272,7 +272,7 @@ text-align: left;
 max-width: 40%; 
 display: inline-block;
 padding: 50px;
-background: url(/img/landscape-of-morning-fog-and-mountains-with-hot-air-balloons-at-sunrise_335224-794.avif) 0 0 / 50px repeat ;
+background: url("../img/landscape-of-morning-fog-and-mountains-with-hot-air-balloons-at-sunrise_335224-794.avif") 0 0 / 50px repeat ;
 }
 
 .text-4{
@@ -280,7 +280,7 @@ text-align: center;
 max-width:40% ;
 display: inline-block;
 padding: 50px;
-background: url(/img/landscape-of-morning-fog-and-mountains-with-hot-air-balloons-at-sunrise_335224-794.avif) 0 0 / 50px repeat-x  ;
+background: url("../img/landscape-of-morning-fog-and-mountains-with-hot-air-balloons-at-sunrise_335224-794.avif") 0 0 / 50px repeat-x  ;
 
 
 
@@ -293,7 +293,7 @@ display: inline-block;
 padding: 50px;
 overflow-y: scroll;
 max-height: 180px ;
-background: url(/img/landscape-of-morning-fog-and-mountains-with-hot-air-balloons-at-sunrise_335224-794.avif) 0 0 / auto no-repeat;
+background: url("../img/landscape-of-morning-fog-and-mountains-with-hot-air-balloons-at-sunrise_335224-794.avif") 0 0 / auto no-repeat;
 
 
 }
