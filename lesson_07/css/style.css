@@ -14,7 +14,6 @@
 }
 .header {
     font-family: "DM Sans", sans-serif;
-    max-width: 1900px;
     text-align: center;
     font-weight: 700;
     font-size: 26px;
@@ -31,7 +30,7 @@
  /* ----------------------------- */
 
  .section-price {
-    max-width: 1920px;
+
     background: var(--Neutral-Colors-Color-100, #FFF);
     font-family: "DM Sans", sans-serif;
     margin-bottom: 60px;
@@ -40,7 +39,6 @@
 .price-content {
     max-width: 1200px;
     margin: 0 auto;
-    display: block;
 }
 .price-items {
     max-width: 542px;
@@ -50,10 +48,13 @@
 
 }
 .price-item {
-    padding-bottom: 58px;
+    padding: 24px 24px 58px 24px;
  
 
 
+}
+.price-links {
+    margin-bottom: 34px;
 }
 .price-link {
     max-width: 495px;
@@ -63,7 +64,6 @@
     padding-block: 45px;
     color: var(--Neutral-Colors-Color-100, #FFF);
     text-align: center;
-    margin: 24px 24px 34px 24px;
 }
 .price-link p:first-of-type {
     font-size: 30px;
@@ -119,7 +119,6 @@
 /* ----------------------- */
 
 .section-timeline {
-    max-width: 1920px;
     font-family: "DM Sans", sans-serif;
     background: var(--Neutral-Colors-Color-100, #FFF);
     margin-bottom: 65px;
@@ -188,7 +187,6 @@ line-height: 42px; /* 175% */
 /* ------------------ */
 
 .section-agency {
-    max-width: 1440px;
     background: #FDF0E9;
     font-family: "Epilogue", sans-serif;
     margin: 0 auto 52px auto;
@@ -200,18 +198,16 @@ line-height: 42px; /* 175% */
     font-weight: 400;
     line-height: 32px; /* 200% */
     color: var(--Text_Dark_Gray, rgba(57, 20, 0, 0.64));
-    padding-bottom: 15px;
 
 }
 .agency-img {
     max-width: 970px;
-    margin: 0 auto;
+    margin: 0 auto 74px auto;
 }
 .agency-img img {
     max-width: 970px;
     width: 100%;
     max-height: 100%;
-    margin-bottom: 74px;
     
 }
 .conector-agency {
