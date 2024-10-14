@@ -1,0 +1,66 @@
+/* @import url("https://fonts.googleapis.com/css?family=Work+Sans:regular&display=swap"); */
+/* @import url("https://fonts.googleapis.com/css?family=Roboto:500&display=swap"); */
+@import url("https://fonts.googleapis.com/css?family=DM+Sans:regular,700&display=swap");
+/* @import url("https://fonts.googleapis.com/css?family=Manrope:300&display=swap"); */
+@import url("https://fonts.googleapis.com/css?family=Epilogue:regular,700&display=swap");
+
+@import url("fonts.css");
+
+@import url("reset.css");
+
+body{
+background-color: rgb(200, 201, 240);
+font-family: "Epilogue", sans-serif;
+color: black;
+
+}
+.wraper{
+overflow: hidden;
+ min-height: 100%;
+
+}
+
+.header, .footer{
+margin-bottom: 50px;
+font-family: "Epilogue", sans-serif;
+margin: 0 auto;
+text-align: center;
+font-size: 50px;
+}
+
+.conteiner{
+max-width: 1150px;
+margin: 0 auto;
+padding-inline: 15px;
+}
+
+
+/* .container > *:not(:last-child) {
+	margin-bottom: 20px;
+} */
+
+img {
+vertical-align: middle;
+	
+}
+p {
+display: inline-block;
+vertical-align: middle;
+font-family: "Epilogue", sans-serif;
+font-size: 22px;
+border: 2px solid black ;
+border-radius: 5px;
+padding: 5px;}
+
+
+.icon> p:hover{
+	color: brown;
+}
+
+
+.icon{
+	margin-block: 30px;
+}
+/* .icon>*:last-child{
+	margin-bottom: 0px;
+} */
