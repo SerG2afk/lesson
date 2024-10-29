@@ -1,0 +1,251 @@
+/* @import url("https://fonts.googleapis.com/css?family=Work+Sans:regular&display=swap"); */
+/* @import url("https://fonts.googleapis.com/css?family=Roboto:500&display=swap"); */
+/* @import url("https://fonts.googleapis.com/css?family=DM+Sans:regular,700&display=swap"); */
+/* @import url("https://fonts.googleapis.com/css?family=Manrope:300&display=swap"); */
+@import url("https://fonts.googleapis.com/css?family=Epilogue:regular,700&display=swap");
+
+@import url("fonts.css");
+
+@import url("reset.css");
+
+
+.wraper{
+overflow: hidden;
+min-height: 100%;
+
+}
+.header{
+background-color: #28293E;
+color: white;
+font-size: 40px;
+padding-block: 20px;
+
+}
+.menu{
+
+}
+.menu__item{
+padding: 10px;
+position: relative;
+display: inline-block;
+position: fixed;
+z-index: 6;
+
+}
+.sub-menu{
+position: absolute;
+inset-inline-start: 0;
+inset-block-start: 100%;
+inline-size:300px;
+padding: 20px;
+background-color: #32334C;
+border-radius: 10px;
+visibility: hidden;
+}
+.sub-menu__item:not(:last-child){
+margin-bottom: 10px;
+}
+.sub-menu__link{
+
+}
+.sub-menu__link:hover{
+text-decoration: underline;
+}
+.menu__item:hover .menu__link{
+background-color: #32334C;
+
+}
+
+.menu__item:hover .sub-menu{
+visibility:visible;
+}
+
+
+
+
+[ class*="__container" ]{
+max-width: 1200px;
+margin: 0 auto;
+padding-inline: 15px;
+}
+.section{
+background-color: #28293E;
+
+}
+
+
+.section__image{
+max-width: 570px;
+min-height: 602px;
+margin:0 auto;
+position: relative;
+
+}
+.image-item__circle:before{
+content: '';
+width: 370px;
+height: 370px;
+border-radius: 50% ;
+background-color: #32334C;
+position: absolute;
+left: 100px;
+top:100px ;
+z-index: 2;
+
+
+}
+.image-item__icon:before{
+content: '';
+width: 246px;
+height: 305px;
+border-radius: 50% 50% 6px 6px / 41% 41% 6px 6px;
+background-color: #B550F8;
+position: absolute;
+z-index: 3; 
+max-width: 100%;
+
+}
+.image-item__laptop{
+position: absolute;
+left: 21px;
+top: 24px;
+z-index: 4;
+max-width: 100%;
+}
+.image-item__icon-yelow::before{
+content: '';
+width: 246px;
+height: 305px;
+border-radius: 50% 50% 6px 6px / 41% 41% 6px 6px;
+background-color: #F7CC47;
+position: absolute;
+right: 0px;
+top: 185px ;
+z-index: 3;
+max-width: 100%;
+}
+.image-item__face{
+position: absolute;
+right: 0px;
+top: 225px;
+z-index: 4;
+max-width: 100%;
+
+}
+.image-item__arrow{
+position: absolute;
+left: 0px;
+top: 350px;
+z-index: 4;
+max-width: 100%;
+}
+.image-item__some-arrow{
+position: absolute;
+right: 160px;
+bottom:0px ;
+z-index: 4;
+max-width: 100%;
+}
+.image-item__oval-red::before{
+content: '';
+width: 112px;
+height: 112px;
+border-radius: 50%;
+background-color: #EF6D58;
+position: absolute;
+left: 304px;
+top: 40px;
+z-index:  3;
+
+
+}
+.image-item__stas{
+position: absolute;
+left: 340px;
+top: 70px;
+z-index: 4;
+max-width: 100%;
+}
+
+.image-item__cloud{
+position: absolute;
+top: 80px;
+right: 0px;
+z-index: 4;
+max-width: 100%;
+}
+.image-item__block{
+position: absolute;
+top: 430px;
+left: 80px;
+z-index: 4;
+max-width: 100%;
+}
+/* ---------------------------- */
+.portfolio{
+background-color: #28293E;
+
+}
+.portfolio__galery{
+position: relative;
+width: 448px;
+height: 576px;
+
+}
+.portfolio__image{
+position: absolute;
+}
+.portfolio__galery:hover::before{
+
+opacity: 0.3181;
+}
+
+.portfolio__image:hover{
+content: "";
+width: 448px;
+height: 576px;
+background: #5C2000;
+opacity: 0.3181;
+position: absolute;
+}
+
+
+.portfolio__button{
+color: #391400;
+font-family: "Epilogue",sans-serif;
+line-height: 32px;
+padding: 5px 15px 1px 16px;
+border-radius: 19px;
+background: #FFF;
+margin-bottom: 24px;
+position: absolute;
+left: 48px;
+top: 421px;
+}
+.portfolio__button:hover{
+
+background:#5C2000;
+color: #FFF;
+}
+.portfolio__name{
+color:#FFF;
+font-family: "Epilogue", sans-serif;
+font-size: 40px;
+font-weight: 800;
+line-height: 48px;
+position: absolute;
+left: 48px;
+top: 477px;
+text-transform: uppercase;
+}
+
+.footer{
+    background-color: #28293E;
+    color: #fffcfc;
+    text-align: center;
+    font-size: 25px;
+}
+.footer__title{
+    padding-block:25px ;
+    
+}
