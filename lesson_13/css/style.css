@@ -683,7 +683,7 @@ background: #FDF0E9;
 }
 .founder__image {
     max-width: 570px;
-    background: url("/img/background.png") 0px 0px / 100% 100% no-repeat;     
+    background: url("/img/background.png") center / 100% 100% no-repeat;     
 }
 .founder__image img{
     padding: 28px 51px 0 42px;
@@ -716,7 +716,7 @@ background: #FDF0E9;
     width: 100px;
     height: 80px;
     position: absolute;
-    background: url("/img/shape.svg")  0px 0px / 100% 100% no-repeat;
+    background: url("/img/shape.svg") center / 100% 100% no-repeat;
     z-index: -1;
     right: 40px;
     top: -56px;
