@@ -71,7 +71,8 @@ z-index: 5;
 
 .menu__list {
 display: flex;
-justify-content: space-between;
+justify-content: center;
+flex-wrap: wrap;
 align-items: center;
 column-gap: 70px;
 
@@ -243,6 +244,16 @@ border: 1px solid rgba(255, 255, 255, 0.64);
     }
 
 
+}
+@media (min-width:370px){
+    .menu__item--none{
+        display: none;
+    }
+}
+@media (max-width:370px){
+    .button__contact{
+        display: none;
+    }
 }
 
 
