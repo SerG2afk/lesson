@@ -269,6 +269,7 @@ border: 1px solid rgba(255, 255, 255, 0.64);
 
 /* --------------------------------------------------- */
 
+
 .portfolio__container {
 }
 .portfolio__block {
@@ -592,15 +593,24 @@ transition: all 0.3s;
         
   
 }
+
 /* ------------------ */
-.agency__number {
+.agency{
+   
+
 }
-.number {
+.agency__number {
+   
+}
+.agancy__container{
+   
+
 }
 .number__items {
     display: flex;
     justify-content: center;
     gap: 18px;
+   
 
 
 }
@@ -624,8 +634,30 @@ color: #FFF;
 .number__item a:hover{
     background: #EF6D58;
     color: #FFF;    
-
+    font-weight: 600;
     }
 }
+@media(max-width:370px){
+    .number__items {
+        
+        gap: 14px;}
+       
+    .number__item a{
+        padding:15px 18px 13px 18px ;
+        font-size: 12;
+
+}
+}
+footer{
+    background-color: #FDF0E9;
+
+}
+.footer__title{
+text-align: center;
+padding-block: 50px;
+font-size: 40px;
+font-weight: 600;
+color: #28293e;
 
 
+}
