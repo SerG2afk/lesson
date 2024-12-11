@@ -40,7 +40,7 @@ body {
     grid-auto-flow: column;
     column-gap: clamp(0.625rem, 3.959vw - 1.275rem, 2.063rem);
     row-gap: clamp(0.5rem, 2.754vw - 0.822rem, 1.5rem);
-    grid-template-rows: 152px 8px 88px 8px 152px 152px 8px 88px 8px 152px ;
+    grid-template-rows: 152px 8px 88px 8px 152px 152px 8px 88px 8px 152px;
 
 
 }
@@ -112,10 +112,19 @@ body {
 
 
 
-
-@media(max-width: 740px){
+@media(max-width: 790px){
     .masonry__container {
         grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 152px 8px 88px 8px 152px 152px 8px 88px 8px 152px 152px 8px 88px 8px 152px 152px 8px 88px 8px 152px ;
+
+    }
+}
+@media(max-width: 380px){
+    .masonry__container {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 152px 8px 88px 8px 152px 152px 8px 88px 8px 152px 152px 8px 88px 8px 152px 152px 8px 88px 8px 152px ;
+        column-gap: 0px;
+
     }
 }
 .footer__content{
