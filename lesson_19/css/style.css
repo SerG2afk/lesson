@@ -1,0 +1,40 @@
+/* @import url("https://fonts.googleapis.com/css?family=Work+Sans:regular&display=swap"); */
+/* @import url("https://fonts.googleapis.com/css?family=Roboto:500&display=swap"); */
+@import url("https://fonts.googleapis.com/css?family=DM+Sans:regular,700&display=swap");
+/* @import url("https://fonts.googleapis.com/css?family=Manrope:300&display=swap"); */
+@import url("https://fonts.googleapis.com/css?family=Epilogue:regular,700&display=swap");
+
+@import url("fonts.css");
+
+@import url("reset.css");
+
+
+.wraper{
+overflow: hidden;
+min-height: 100%;
+font-family: "Epilogue";
+
+
+}
+[ class*="__container" ]{
+    max-width: 1342px;
+    margin: 0 auto;
+    padding-inline: 15px;
+}
+body {
+    font-family: "Epilogue";
+
+}
+.team__item {
+}
+.team__foto {
+}
+.team__content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.team__name {
+}
+.team__professional {
+}
