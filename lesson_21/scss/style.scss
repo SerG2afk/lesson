@@ -1152,3 +1152,15 @@ body {
         display: none;
     }
 }
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding-block: toRem(20);
+    // .footer__container
+
+    &__container {
+        font-size: toRem(20);
+    }
+}

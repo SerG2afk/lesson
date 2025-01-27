@@ -1441,3 +1441,16 @@ body {
     display: none;
   }
 }
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-block: 1.25rem;
+}
+.footer__container {
+  font-size: 1.25rem;
+}
